@@ -39,6 +39,14 @@ const Navbar = () => {
           </ul>
 
         </div>
+        <div class="boxAnimation">
+        <div class="box__content">
+          <div class="box__title">KONTAKT</div>
+          <div class="box__description">
+            Mój kontakt trzeba napisać
+          </div>
+        </div>
+      </div>
 
       </div>
     </nav>

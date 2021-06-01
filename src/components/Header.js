@@ -18,6 +18,7 @@ const Header = () => {
         <a href="#" className="btn-main-offer">contact me</a>
       </div>
     </div>
+    
   )
 }
 

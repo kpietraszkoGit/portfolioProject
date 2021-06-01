@@ -144,6 +144,46 @@ nav ul li {
   }
 }
 
+/*-------- BOX ANIMATION ON THE LEFT -------------*/
+.boxAnimation {
+  background: #ffc000;
+  border-radius: 0px 4px 4px 0px;
+  left: -304px;
+  padding: 4px 4px 4px 0px;
+  position: fixed;
+  top: 110px;
+  transition: transform 0.4s;
+  width: 300px;
+}
+
+.boxAnimation:hover {
+  transform: translateX(304px);
+}
+
+.boxAnimation .box__content {
+  background: #fff;
+  min-height: 200px;
+  padding: 10px;
+  position: relative;
+}
+
+.boxAnimation .box__title {
+  background: #fff;
+  border: solid #ffc000;
+  border-radius: 0px 0px 4px 4px;
+  border-width: 0px 4px 4px;
+  cursor: default;
+  font-size: 18px;
+  height: 34px;
+  line-height: 32px;
+  position: absolute;
+  right: -74px;
+  text-align: center;
+  top: 70px;
+  transform: rotate(-90deg);
+  width: 106px;
+}
+
 /************************ ABOUT ME *********************************/
 .photo-wrap {
   display: flex;
