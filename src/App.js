@@ -3,8 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Work from "./components/Work";
 import AboutMe from "./components/AboutMe";
 import Services from "./components/Services";
+import ContactMe from "./components/ContactMe";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
@@ -37,11 +39,13 @@ function App() {
       />
       <Navbar />
       <Header />
+      <Work />
       <AboutMe />
+      <ContactMe />
       <Services />
-      <Experience />
+      {/* <Experience /> */}
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contacts />
       <Footer />
     </>

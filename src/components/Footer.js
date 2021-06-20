@@ -17,30 +17,28 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>city Moscow Main st 2020 office #223</p>
+              <p>Kraków ul. Wolna 5, 34-322</p>
             </div>
             <div className="d-flex">
-              <a href="tel:555-555-555">+7(960)555-5555</a>
+              <a href="tel:555-555-555">+48 999-000-000</a>
             </div>
             <div className="d-flex">
-              <p>8020coding@gmail.com</p>
+              <p>8020jakis@gmail.com</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <a className="footer-nav">Home</a>
+                <a className="footer-nav" href="#home">Strona główna</a>
                 <br />
-                <a className="footer-nav">About me</a>
+                <a className="footer-nav" href="#about">O mnie</a>
                 <br />
-                <a className="footer-nav">Services</a>
+                <a className="footer-nav" href="#services">Klienci indywidualni</a>
               </div>
               <div className="col">
-                <a className="footer-nav">Experience</a>
+                <a className="footer-nav" href="#portfolio">Klienci biznesowi</a>
                 <br />
-                <a className="footer-nav">Portfolio</a>
-                <br />
-                <a className="footer-nav">Contacts</a>
+                <a className="footer-nav" href="#contacts">Kontakt</a>
               </div>
             </div>
           </div>
@@ -77,7 +75,7 @@ const Footer = () => {
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
-              {new Date().getFullYear()}&nbsp;New Horizon | All Rights Reserved
+              {new Date().getFullYear()}&nbsp;Kamil Pietraszko | All Rights Reserved
             </p>
           </div>
         </div>

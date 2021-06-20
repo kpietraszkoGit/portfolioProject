@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 
 const Header = () => {
@@ -7,15 +8,16 @@ const Header = () => {
     <div id="home" className="header-wraper">
       <div className="main-info">
         <canvas></canvas>
-        <h1>web development and websites promotions</h1>
+        <h1>maciej stokłosa</h1>
+        <h2>Doradca Finansowy</h2>
         <Typed
           className="typed-text"
-          strings={["Web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
+          strings={["Kredyty", "Ubezpieczenia", "Emerytury", "Inwestycje"]}
           typeSpeed={40}
           backSpeed={60}
           loop
         />
-        <a href="#" className="btn-main-offer">contact me</a>
+        <Link smooth={true} to="contacts" offset={-110} className="btn-main-offer" href="#">kontakt</Link>
       </div>
     </div>
     

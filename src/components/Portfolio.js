@@ -1,8 +1,9 @@
 import React from "react";
 import netflix from "../images/netflix.png";
-import cityGuide from "../images/city-guide-app.png";
-import portfolio from "../images/portfolio.png";
-import taskManager from "../images/task-manager.png";
+// import cityGuide from "../images/city-guide-app.png";
+// import portfolio from "../images/portfolio.png";
+// import taskManager from "../images/task-manager.png";
+import finance2a from "../finance2a.jpg";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -20,7 +21,7 @@ const Pofrfolio = () => {
       <>
         <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone Project..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-project")}>https://github.com/8020Coding/netflix-project</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-projects")}>https://</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -39,11 +40,11 @@ const Pofrfolio = () => {
   const openPopupboxCityGuide = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide App Project..." />
+        <img className="portfolio-image-popupbox" src={finance2a} alt="City Guide App Project..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://city-guide-app-project.herokuapp.com/", "_blank")}>https://city-guide-app-project.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://city-guide-app-project.herokuapp.coms/", "_blank")}>https://</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/8020Coding/city-guide-app</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-apps", "_blank")}>https://</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -62,11 +63,11 @@ const Pofrfolio = () => {
   const openPopupboxPortfolio = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
+        <img className="portfolio-image-popupbox" src={finance2a} alt="Portfolio Project..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.coms/", "_blank")}>https://</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilisso", "_blank")}>https://</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -85,11 +86,11 @@ const Pofrfolio = () => {
   const openPopupboxTaskManager = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={taskManager} alt="Task Manager React and Redux Project..." />
+        <img className="portfolio-image-popupbox" src={finance2a} alt="Task Manager React and Redux Project..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/", "_blank")}>https://react-redux-task-manager.herokuapp.com/</a>
+        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/a", "_blank")}>https://</a>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/task-manager", "_blank")}>https://github.com/8020Coding/task-manager</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/task-manageraa", "_blank")}>https://</a>
       </>
     )
     PopupboxManager.open({ content })
@@ -108,7 +109,9 @@ const Pofrfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
-        <h1 className="text-uppercase text-center py-5">portfolio</h1>
+        <h1 className="text-uppercase text-center py-5">klienci biznesowi</h1>
+        <div className="text-uppercase text-center text-portflio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis. 
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</div>
         <div className="image-box-wrapper row">
           <div className="portfolio-image-box col-md-6 col-lg-3" onClick={openPopupboxNetflix}>
             <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
@@ -117,19 +120,19 @@ const Pofrfolio = () => {
           </div>
           {/* - */}
           <div className="portfolio-image-box col-md-6 col-lg-3" onClick={openPopupboxCityGuide}>
-            <img className="portfolio-image" src={cityGuide} alt="City Guide Project..." />
+            <img className="portfolio-image" src={finance2a} alt="City Guide Project..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box col-md-6 col-lg-3" onClick={openPopupboxPortfolio}>
-            <img className="portfolio-image" src={portfolio} alt="Portfolio React and Material UI Project..." />
+            <img className="portfolio-image" src={finance2a} alt="Portfolio React and Material UI Project..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="portfolio-image-box col-md-6 col-lg-3" onClick={openPopupboxTaskManager}>
-            <img className="portfolio-image" src={taskManager} alt="Task Manager React and Redux Project..." />
+            <img className="portfolio-image" src={finance2a} alt="Task Manager React and Redux Project..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>

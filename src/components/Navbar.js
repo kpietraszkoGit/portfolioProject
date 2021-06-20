@@ -17,23 +17,23 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link smooth={true} to="home" className="nav-link" href="#">Home<span className="sr-only">(current)</span></Link>
+              <Link smooth={true} to="home" className="nav-link" href="#">strona główna<span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="about" offset={-110} className="nav-link" href="#">about me</Link>
+              <Link smooth={true} to="about" offset={-110} className="nav-link" href="#">o mnie</Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">services</Link>
+              <Link smooth={true} to="services" offset={-110} className="nav-link" href="#">klienci indywidualni</Link>
             </li>
+            {/* <li className="nav-item">
+              <Link smooth={true} to="experience" offset={-110} className="nav-link" href="#">doświadczenie</Link>
+            </li> */}
             <li className="nav-item">
-              <Link smooth={true} to="experience" offset={-110} className="nav-link" href="#">experience</Link>
-            </li>
-            <li className="nav-item">
-              <Link smooth={true} to="portfolio" offset={-110} className="nav-link" href="#">portfolio</Link>
+              <Link smooth={true} to="portfolio" offset={-110} className="nav-link" href="#">klienci biznesowi</Link>
             </li>
 
             <li className="nav-item">
-              <Link smooth={true} to="contacts" offset={-110} className="nav-link" href="#">contacts</Link>
+              <Link smooth={true} to="contacts" offset={-110} className="nav-link" href="#">kontakt</Link>
             </li>
 
           </ul>
@@ -43,7 +43,7 @@ const Navbar = () => {
         <div class="box__content">
           <div class="box__title">KONTAKT</div>
           <div class="box__description">
-            Mój kontakt trzeba napisać
+            Kontakt Maćka !
           </div>
         </div>
       </div>
