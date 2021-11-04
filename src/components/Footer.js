@@ -23,7 +23,7 @@ const Footer = () => {
               <a href="tel:555-555-555">+48 999-000-000</a>
             </div>
             <div className="d-flex">
-              <p>8020jakis@gmail.com</p>
+              <p>adamkowalski_finanse@gmail.com</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-2 col-sm-6">

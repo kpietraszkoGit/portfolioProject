@@ -11,7 +11,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="col-lg-6 col-xm-12">
-          <h1 className="about-heading">Maciej Stokłosa</h1>
+          <h1 className="about-heading">Adam Kowalski</h1>
           <p className="about-text">
             Kashyyyk dooku solo fisto biggs leia. Luuke maul r2-d2 darth. Ahsoka luke lando mon endor twi’lek. Moff owen secura wedge darth mon hutt. 
             Amidala organa dagobah padmé skywalker. Sith chewbacca baba luuke. Lars moff hutt endor ackbar kashyyyk hutt hutt coruscant. Fett skywalker moff antilles lando organa lando organa dantooine. 

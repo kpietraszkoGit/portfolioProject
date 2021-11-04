@@ -43,7 +43,18 @@ const Navbar = () => {
         <div class="box__content">
           <div class="box__title">KONTAKT</div>
           <div class="box__description">
-            Kontakt Maćka !
+            <div className="d-flex justify-content-center fw-bold">
+            <p>Adam Kowalski</p>
+            </div>
+            <div className="d-flex justify-content-center">
+            <p>Kraków ul. Wolna 5, 34-322</p>
+            </div>
+            <div className="d-flex justify-content-center">
+              <p><a href="tel:999-000-000">+48 999-000-000</a></p>
+            </div>
+            <div className="d-flex justify-content-center">
+              <p>adamkowalski_finanse@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>

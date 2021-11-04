@@ -16,11 +16,11 @@ import "react-popupbox/dist/react-popupbox.css";
 
 const Pofrfolio = () => {
 
-  // Netflix
+  // Wealth
   const openPopupboxNetflix = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={wealth} alt="Netflix Clone Project..." />
+        <img className="portfolio-image-popupbox" src={wealth} alt="Wealth..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/netflix-projects")}>https://</a>
       </>
@@ -37,11 +37,11 @@ const Pofrfolio = () => {
     fadeInSpeed: 500
   }
 
-  // City Guide App
+  // Invest
   const openPopupboxCityGuide = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={invest} alt="City Guide App Project..." />
+        <img className="portfolio-image-popupbox" src={invest} alt="Invest..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://city-guide-app-project.herokuapp.coms/", "_blank")}>https://</a>
         <br />
@@ -60,11 +60,11 @@ const Pofrfolio = () => {
     fadeInSpeed: 500
   }
 
-  // Portfolio Project
+  // Cash
   const openPopupboxPortfolio = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={cash} alt="Portfolio Project..." />
+        <img className="portfolio-image-popupbox" src={cash} alt="Cash..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.coms/", "_blank")}>https://</a>
         <br />
@@ -83,11 +83,11 @@ const Pofrfolio = () => {
     fadeInSpeed: 500
   }
 
-  // Task Manager React and Redux Project
+  // Money
   const openPopupboxTaskManager = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={money} alt="Task Manager React and Redux Project..." />
+        <img className="portfolio-image-popupbox" src={money} alt="Money..." />
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
         <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-redux-task-manager.herokuapp.com/a", "_blank")}>https://</a>
         <br />
