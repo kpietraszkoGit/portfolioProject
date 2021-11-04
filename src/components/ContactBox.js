@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
-import author from "../maciek.jpg";
+import author from "../manOffice.jpg";
 
 const Contacts = () => {
   const [successMessage, setSuccessMessage] = useState("");

@@ -524,7 +524,7 @@ nav ul li {
 
 /*------------ OVERFLOW BOX ------------------*/
 .portfolio-image-popupbox {
-  width: 45rem;
+  width: 38rem;
   padding: 0 0.5rem;
 }
 
@@ -535,6 +535,10 @@ nav ul li {
 
 .hyper-link:hover {
   color: var(--primary-red);
+}
+
+.popupbox-content {
+  text-align: center;
 }
 
 /*------------ MEDIA ------------------*/

@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../maciek.jpg";
+import author from "../manOffice.jpg";
 
 const AboutMe = () => {
   return (
@@ -13,10 +13,10 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">Adam Kowalski</h1>
           <p className="about-text">
-            Kashyyyk dooku solo fisto biggs leia. Luuke maul r2-d2 darth. Ahsoka luke lando mon endor twi’lek. Moff owen secura wedge darth mon hutt. 
-            Amidala organa dagobah padmé skywalker. Sith chewbacca baba luuke. Lars moff hutt endor ackbar kashyyyk hutt hutt coruscant. Fett skywalker moff antilles lando organa lando organa dantooine. 
-            Darth organa jar r2-d2 fett. Antilles boba darth ackbar wedge hutt chewbacca. Kenobi jango obi-wan organa kit. Lars boba leia cade. 
-            Skywalker skywalker mon dagobah. Darth secura endor mara. Skywalker skywalker mon dagobah. Darth secura endor mara. Skywalker skywalker mon dagobah. Darth secura endor mara. 
+            Lucas ipsum dolor sit amet alderaan hutt mustafar aayla ackbar anakin secura antilles solo windu. Hoth kenobi leia kit anakin jar darth. 
+            Lucas ipsum dolor sit amet alderaan hutt mustafar aayla ackbar anakin secura antilles solo windu. Hoth kenobi leia kit anakin jar darth. 
+            Lucas ipsum dolor sit amet alderaan hutt mustafar aayla ackbar anakin secura antilles solo windu. Hoth kenobi leia kit anakin jar darth. 
+            Lucas ipsum dolor sit amet alderaan hutt mustafar aayla ackbar anakin secura antilles solo windu. Hoth kenobi leia kit anakin jar darth.
           </p>
           <div className="row">
             <div className="col-lg-4 about-number"><h1>5</h1> lat doświdczenia</div>
