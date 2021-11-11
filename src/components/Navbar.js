@@ -1,4 +1,4 @@
-import logo from "../logo.png";
+import logo from "../logoFinance.png";
 import { Link } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
